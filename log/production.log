@@ -1,0 +1,449 @@
+I, [2022-06-14T16:53:57.412489 #47898]  INFO -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a] Started GET "/" for 127.0.0.1 at 2022-06-14 16:53:57 -0500
+I, [2022-06-14T16:53:57.414517 #47898]  INFO -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a] Processing by WelcomeController#index as HTML
+I, [2022-06-14T16:53:57.428102 #47898]  INFO -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-14T16:53:57.429987 #47898]  INFO -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a]   Rendered welcome/index.html.erb within layouts/application (1.6ms)
+I, [2022-06-14T16:53:57.432834 #47898]  INFO -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a] Completed 500 Internal Server Error in 18ms
+F, [2022-06-14T16:53:57.434313 #47898] FATAL -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a]   
+F, [2022-06-14T16:53:57.434597 #47898] FATAL -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+F, [2022-06-14T16:53:57.434804 #47898] FATAL -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a]      5:     <%= csrf_meta_tags %>
+[344676f4-e1c7-42fb-b0aa-0aef91f3187a]      6:     <%= csp_meta_tag %>
+[344676f4-e1c7-42fb-b0aa-0aef91f3187a]      7: 
+[344676f4-e1c7-42fb-b0aa-0aef91f3187a]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[344676f4-e1c7-42fb-b0aa-0aef91f3187a]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[344676f4-e1c7-42fb-b0aa-0aef91f3187a]     10:   </head>
+[344676f4-e1c7-42fb-b0aa-0aef91f3187a]     11: 
+F, [2022-06-14T16:53:57.434867 #47898] FATAL -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a]   
+F, [2022-06-14T16:53:57.434944 #47898] FATAL -- : [344676f4-e1c7-42fb-b0aa-0aef91f3187a] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2999431185009758535_47290966377960'
+I, [2022-06-14T16:54:57.387162 #48146]  INFO -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652] Started GET "/" for 127.0.0.1 at 2022-06-14 16:54:57 -0500
+I, [2022-06-14T16:54:57.389055 #48146]  INFO -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652] Processing by WelcomeController#index as HTML
+I, [2022-06-14T16:54:57.399691 #48146]  INFO -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-14T16:54:57.401033 #48146]  INFO -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652]   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2022-06-14T16:54:57.402778 #48146]  INFO -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652] Completed 500 Internal Server Error in 13ms
+F, [2022-06-14T16:54:57.403641 #48146] FATAL -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652]   
+F, [2022-06-14T16:54:57.403708 #48146] FATAL -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+F, [2022-06-14T16:54:57.403867 #48146] FATAL -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652]      5:     <%= csrf_meta_tags %>
+[eac6a6f9-310b-4d3b-804c-7fd2551fa652]      6:     <%= csp_meta_tag %>
+[eac6a6f9-310b-4d3b-804c-7fd2551fa652]      7: 
+[eac6a6f9-310b-4d3b-804c-7fd2551fa652]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[eac6a6f9-310b-4d3b-804c-7fd2551fa652]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[eac6a6f9-310b-4d3b-804c-7fd2551fa652]     10:   </head>
+[eac6a6f9-310b-4d3b-804c-7fd2551fa652]     11: 
+F, [2022-06-14T16:54:57.403931 #48146] FATAL -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652]   
+F, [2022-06-14T16:54:57.404003 #48146] FATAL -- : [eac6a6f9-310b-4d3b-804c-7fd2551fa652] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4535825816000240266_47245639055420'
+I, [2022-06-14T16:55:11.527374 #48146]  INFO -- : [6801a6a3-8175-4a8b-8f17-7d8089d745ad] Started GET "/index" for 127.0.0.1 at 2022-06-14 16:55:11 -0500
+F, [2022-06-14T16:55:11.528214 #48146] FATAL -- : [6801a6a3-8175-4a8b-8f17-7d8089d745ad]   
+F, [2022-06-14T16:55:11.528350 #48146] FATAL -- : [6801a6a3-8175-4a8b-8f17-7d8089d745ad] ActionController::RoutingError (No route matches [GET] "/index"):
+F, [2022-06-14T16:55:11.528422 #48146] FATAL -- : [6801a6a3-8175-4a8b-8f17-7d8089d745ad]   
+F, [2022-06-14T16:55:11.528511 #48146] FATAL -- : [6801a6a3-8175-4a8b-8f17-7d8089d745ad] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[6801a6a3-8175-4a8b-8f17-7d8089d745ad] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-21T11:46:59.728024 #16369]  INFO -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5] Started GET "/" for 127.0.0.1 at 2022-06-21 11:46:59 -0500
+I, [2022-06-21T11:46:59.730469 #16369]  INFO -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5] Processing by WelcomeController#index as HTML
+I, [2022-06-21T11:46:59.746718 #16369]  INFO -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-21T11:46:59.823829 #16369]  INFO -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]   Rendered welcome/_menu.html.erb (0.7ms)
+I, [2022-06-21T11:46:59.824049 #16369]  INFO -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]   Rendered welcome/index.html.erb within layouts/application (77.0ms)
+I, [2022-06-21T11:46:59.827179 #16369]  INFO -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5] Completed 500 Internal Server Error in 96ms
+F, [2022-06-21T11:46:59.829008 #16369] FATAL -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]   
+F, [2022-06-21T11:46:59.829314 #16369] FATAL -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+F, [2022-06-21T11:46:59.829662 #16369] FATAL -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]      5:     <%= csrf_meta_tags %>
+[4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]      6:     <%= csp_meta_tag %>
+[4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]      7: 
+[4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]      9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+[4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]     10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+[4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]     11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+F, [2022-06-21T11:46:59.829821 #16369] FATAL -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5]   
+F, [2022-06-21T11:46:59.829923 #16369] FATAL -- : [4aa26abd-74b6-42d6-b55e-bf8af12c6ff5] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4493240926370719508_70351363110260'
+I, [2022-06-22T13:29:53.901192 #16346]  INFO -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59] Started GET "/" for 127.0.0.1 at 2022-06-22 13:29:53 -0500
+I, [2022-06-22T13:29:53.903558 #16346]  INFO -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59] Processing by WelcomeController#index as HTML
+I, [2022-06-22T13:29:53.918453 #16346]  INFO -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-22T13:29:54.017150 #16346]  INFO -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]   Rendered welcome/_menu.html.erb (0.7ms)
+I, [2022-06-22T13:29:54.017369 #16346]  INFO -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]   Rendered welcome/index.html.erb within layouts/application (98.7ms)
+I, [2022-06-22T13:29:54.019712 #16346]  INFO -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59] Completed 500 Internal Server Error in 116ms
+F, [2022-06-22T13:29:54.020617 #16346] FATAL -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]   
+F, [2022-06-22T13:29:54.020684 #16346] FATAL -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+F, [2022-06-22T13:29:54.020858 #16346] FATAL -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]      5:     <%= csrf_meta_tags %>
+[7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]      6:     <%= csp_meta_tag %>
+[7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]      7: 
+[7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]      9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+[7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]     10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+[7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]     11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+F, [2022-06-22T13:29:54.020912 #16346] FATAL -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59]   
+F, [2022-06-22T13:29:54.020984 #16346] FATAL -- : [7a5d0a4b-213d-4670-9d9c-ec55a6c2cc59] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__970185332485891028_70044507828660'
+D, [2022-06-22T13:38:26.045281 #17102] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2022-06-22T13:38:26.057625 #17102] DEBUG -- :   [1m[35m (11.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+D, [2022-06-22T13:38:26.072206 #17102] DEBUG -- :   [1m[35m (11.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2022-06-22T13:38:26.086798 #17102] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2022-06-22T13:38:26.087086 #17102]  INFO -- : Migrating to CreateCoins (20220606232920)
+D, [2022-06-22T13:38:26.092575 #17102] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-06-22T13:38:26.094663 #17102] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "coins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "acronym" varchar, "url_image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2022-06-22T13:38:26.105534 #17102] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220606232920"]]
+D, [2022-06-22T13:38:26.121804 #17102] DEBUG -- :   [1m[35m (15.3ms)[0m  [1m[36mcommit transaction[0m
+I, [2022-06-22T13:38:26.122131 #17102]  INFO -- : Migrating to CreateMiningTypes (20220618015414)
+D, [2022-06-22T13:38:26.124105 #17102] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-06-22T13:38:26.126450 #17102] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "mining_types" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "acronym" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2022-06-22T13:38:26.128936 #17102] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220618015414"]]
+D, [2022-06-22T13:38:26.141122 #17102] DEBUG -- :   [1m[35m (11.6ms)[0m  [1m[36mcommit transaction[0m
+I, [2022-06-22T13:38:26.141391 #17102]  INFO -- : Migrating to AddMiningTypeToCoins (20220618032803)
+D, [2022-06-22T13:38:26.142906 #17102] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-06-22T13:38:26.145843 #17102] DEBUG -- :   [1m[35m (1.8ms)[0m  [1m[35mALTER TABLE "coins" ADD "mining_type_id" integer[0m
+D, [2022-06-22T13:38:26.148303 #17102] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX "index_coins_on_mining_type_id" ON "coins" ("mining_type_id")[0m
+D, [2022-06-22T13:38:26.150641 #17102] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220618032803"]]
+D, [2022-06-22T13:38:26.163546 #17102] DEBUG -- :   [1m[35m (12.4ms)[0m  [1m[36mcommit transaction[0m
+D, [2022-06-22T13:38:26.169858 #17102] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2022-06-22T13:38:26.180133 #17102] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-06-22T13:38:26.182710 #17102] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "production"], ["created_at", "2022-06-22 18:38:26.180807"], ["updated_at", "2022-06-22 18:38:26.180807"]]
+D, [2022-06-22T13:38:26.192659 #17102] DEBUG -- :   [1m[35m (9.4ms)[0m  [1m[36mcommit transaction[0m
+I, [2022-06-22T13:38:45.838233 #17173]  INFO -- : [e6b5ff35-5f7d-4b3a-9b55-c6e496e05416] Started GET "/" for 127.0.0.1 at 2022-06-22 13:38:45 -0500
+I, [2022-06-22T13:38:45.841765 #17173]  INFO -- : [e6b5ff35-5f7d-4b3a-9b55-c6e496e05416] Processing by WelcomeController#index as HTML
+I, [2022-06-22T13:38:45.856559 #17173]  INFO -- : [e6b5ff35-5f7d-4b3a-9b55-c6e496e05416]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-22T13:38:45.940332 #17173]  INFO -- : [e6b5ff35-5f7d-4b3a-9b55-c6e496e05416]   Rendered welcome/_menu.html.erb (0.8ms)
+I, [2022-06-22T13:38:45.940533 #17173]  INFO -- : [e6b5ff35-5f7d-4b3a-9b55-c6e496e05416]   Rendered welcome/index.html.erb within layouts/application (83.7ms)
+I, [2022-06-22T13:38:45.942407 #17173]  INFO -- : [e6b5ff35-5f7d-4b3a-9b55-c6e496e05416] Completed 200 OK in 100ms (Views: 88.9ms)
+I, [2022-06-22T13:38:45.979745 #17173]  INFO -- : [27b0b837-0647-4dba-b723-b37ff3af566c] Started GET "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css" for 127.0.0.1 at 2022-06-22 13:38:45 -0500
+F, [2022-06-22T13:38:45.981140 #17173] FATAL -- : [27b0b837-0647-4dba-b723-b37ff3af566c]   
+F, [2022-06-22T13:38:45.981405 #17173] FATAL -- : [27b0b837-0647-4dba-b723-b37ff3af566c] ActionController::RoutingError (No route matches [GET] "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css"):
+F, [2022-06-22T13:38:45.982895 #17173] FATAL -- : [27b0b837-0647-4dba-b723-b37ff3af566c]   
+F, [2022-06-22T13:38:45.983366 #17173] FATAL -- : [27b0b837-0647-4dba-b723-b37ff3af566c] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[27b0b837-0647-4dba-b723-b37ff3af566c] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[27b0b837-0647-4dba-b723-b37ff3af566c] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[27b0b837-0647-4dba-b723-b37ff3af566c] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[27b0b837-0647-4dba-b723-b37ff3af566c] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[27b0b837-0647-4dba-b723-b37ff3af566c] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[27b0b837-0647-4dba-b723-b37ff3af566c] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[27b0b837-0647-4dba-b723-b37ff3af566c] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[27b0b837-0647-4dba-b723-b37ff3af566c] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:38:45.984510 #17173]  INFO -- : [11875dc0-0698-4bfc-9322-46eafbab3684] Started GET "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js" for 127.0.0.1 at 2022-06-22 13:38:45 -0500
+F, [2022-06-22T13:38:45.986069 #17173] FATAL -- : [11875dc0-0698-4bfc-9322-46eafbab3684]   
+F, [2022-06-22T13:38:45.986231 #17173] FATAL -- : [11875dc0-0698-4bfc-9322-46eafbab3684] ActionController::RoutingError (No route matches [GET] "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js"):
+F, [2022-06-22T13:38:45.986308 #17173] FATAL -- : [11875dc0-0698-4bfc-9322-46eafbab3684]   
+F, [2022-06-22T13:38:45.986374 #17173] FATAL -- : [11875dc0-0698-4bfc-9322-46eafbab3684] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[11875dc0-0698-4bfc-9322-46eafbab3684] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[11875dc0-0698-4bfc-9322-46eafbab3684] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[11875dc0-0698-4bfc-9322-46eafbab3684] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[11875dc0-0698-4bfc-9322-46eafbab3684] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[11875dc0-0698-4bfc-9322-46eafbab3684] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[11875dc0-0698-4bfc-9322-46eafbab3684] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[11875dc0-0698-4bfc-9322-46eafbab3684] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[11875dc0-0698-4bfc-9322-46eafbab3684] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:38:45.982661 #17173]  INFO -- : [c280701a-fa29-4160-8360-5e1a3f94695a] Started GET "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css" for 127.0.0.1 at 2022-06-22 13:38:45 -0500
+F, [2022-06-22T13:38:45.988767 #17173] FATAL -- : [c280701a-fa29-4160-8360-5e1a3f94695a]   
+F, [2022-06-22T13:38:45.989140 #17173] FATAL -- : [c280701a-fa29-4160-8360-5e1a3f94695a] ActionController::RoutingError (No route matches [GET] "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css"):
+F, [2022-06-22T13:38:45.989235 #17173] FATAL -- : [c280701a-fa29-4160-8360-5e1a3f94695a]   
+F, [2022-06-22T13:38:45.990173 #17173] FATAL -- : [c280701a-fa29-4160-8360-5e1a3f94695a] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[c280701a-fa29-4160-8360-5e1a3f94695a] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[c280701a-fa29-4160-8360-5e1a3f94695a] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[c280701a-fa29-4160-8360-5e1a3f94695a] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[c280701a-fa29-4160-8360-5e1a3f94695a] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[c280701a-fa29-4160-8360-5e1a3f94695a] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[c280701a-fa29-4160-8360-5e1a3f94695a] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[c280701a-fa29-4160-8360-5e1a3f94695a] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[c280701a-fa29-4160-8360-5e1a3f94695a] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:22.490988 #17173]  INFO -- : [15e91f96-0727-4109-8385-d93df5117fea] Started GET "/" for 127.0.0.1 at 2022-06-22 13:39:22 -0500
+I, [2022-06-22T13:39:22.492577 #17173]  INFO -- : [15e91f96-0727-4109-8385-d93df5117fea] Processing by WelcomeController#index as HTML
+I, [2022-06-22T13:39:22.494494 #17173]  INFO -- : [15e91f96-0727-4109-8385-d93df5117fea]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-22T13:39:22.496113 #17173]  INFO -- : [15e91f96-0727-4109-8385-d93df5117fea]   Rendered welcome/_menu.html.erb (0.2ms)
+I, [2022-06-22T13:39:22.496358 #17173]  INFO -- : [15e91f96-0727-4109-8385-d93df5117fea]   Rendered welcome/index.html.erb within layouts/application (1.6ms)
+I, [2022-06-22T13:39:22.497874 #17173]  INFO -- : [15e91f96-0727-4109-8385-d93df5117fea] Completed 200 OK in 5ms (Views: 3.7ms)
+I, [2022-06-22T13:39:22.528944 #17173]  INFO -- : [745c21e9-4d9e-449a-ae9a-2b1327cd7829] Started GET "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css" for 127.0.0.1 at 2022-06-22 13:39:22 -0500
+F, [2022-06-22T13:39:22.529956 #17173] FATAL -- : [745c21e9-4d9e-449a-ae9a-2b1327cd7829]   
+F, [2022-06-22T13:39:22.530107 #17173] FATAL -- : [745c21e9-4d9e-449a-ae9a-2b1327cd7829] ActionController::RoutingError (No route matches [GET] "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css"):
+F, [2022-06-22T13:39:22.530198 #17173] FATAL -- : [745c21e9-4d9e-449a-ae9a-2b1327cd7829]   
+F, [2022-06-22T13:39:22.530289 #17173] FATAL -- : [745c21e9-4d9e-449a-ae9a-2b1327cd7829] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[745c21e9-4d9e-449a-ae9a-2b1327cd7829] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:22.537306 #17173]  INFO -- : [8158134e-16f4-44f4-9eab-5c429680d419] Started GET "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css" for 127.0.0.1 at 2022-06-22 13:39:22 -0500
+F, [2022-06-22T13:39:22.538231 #17173] FATAL -- : [8158134e-16f4-44f4-9eab-5c429680d419]   
+F, [2022-06-22T13:39:22.538354 #17173] FATAL -- : [8158134e-16f4-44f4-9eab-5c429680d419] ActionController::RoutingError (No route matches [GET] "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css"):
+F, [2022-06-22T13:39:22.538399 #17173] FATAL -- : [8158134e-16f4-44f4-9eab-5c429680d419]   
+F, [2022-06-22T13:39:22.538463 #17173] FATAL -- : [8158134e-16f4-44f4-9eab-5c429680d419] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[8158134e-16f4-44f4-9eab-5c429680d419] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[8158134e-16f4-44f4-9eab-5c429680d419] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[8158134e-16f4-44f4-9eab-5c429680d419] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[8158134e-16f4-44f4-9eab-5c429680d419] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[8158134e-16f4-44f4-9eab-5c429680d419] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[8158134e-16f4-44f4-9eab-5c429680d419] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[8158134e-16f4-44f4-9eab-5c429680d419] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[8158134e-16f4-44f4-9eab-5c429680d419] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[8158134e-16f4-44f4-9eab-5c429680d419] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:22.540725 #17173]  INFO -- : [357061da-b0e0-4da7-a2f1-efc4c07af951] Started GET "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js" for 127.0.0.1 at 2022-06-22 13:39:22 -0500
+F, [2022-06-22T13:39:22.542069 #17173] FATAL -- : [357061da-b0e0-4da7-a2f1-efc4c07af951]   
+F, [2022-06-22T13:39:22.542292 #17173] FATAL -- : [357061da-b0e0-4da7-a2f1-efc4c07af951] ActionController::RoutingError (No route matches [GET] "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js"):
+F, [2022-06-22T13:39:22.542370 #17173] FATAL -- : [357061da-b0e0-4da7-a2f1-efc4c07af951]   
+F, [2022-06-22T13:39:22.542453 #17173] FATAL -- : [357061da-b0e0-4da7-a2f1-efc4c07af951] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[357061da-b0e0-4da7-a2f1-efc4c07af951] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:25.535946 #17173]  INFO -- : [2f768238-5629-40ad-858a-4932ba4b9302] Started GET "/" for 127.0.0.1 at 2022-06-22 13:39:25 -0500
+I, [2022-06-22T13:39:25.537445 #17173]  INFO -- : [2f768238-5629-40ad-858a-4932ba4b9302] Processing by WelcomeController#index as HTML
+I, [2022-06-22T13:39:25.539735 #17173]  INFO -- : [2f768238-5629-40ad-858a-4932ba4b9302]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-22T13:39:25.541864 #17173]  INFO -- : [2f768238-5629-40ad-858a-4932ba4b9302]   Rendered welcome/_menu.html.erb (0.4ms)
+I, [2022-06-22T13:39:25.542270 #17173]  INFO -- : [2f768238-5629-40ad-858a-4932ba4b9302]   Rendered welcome/index.html.erb within layouts/application (2.2ms)
+I, [2022-06-22T13:39:25.544731 #17173]  INFO -- : [2f768238-5629-40ad-858a-4932ba4b9302] Completed 200 OK in 7ms (Views: 5.5ms)
+I, [2022-06-22T13:39:25.577417 #17173]  INFO -- : [2c5daa63-aa8b-4243-a338-c21b932ece94] Started GET "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css" for 127.0.0.1 at 2022-06-22 13:39:25 -0500
+F, [2022-06-22T13:39:25.578694 #17173] FATAL -- : [2c5daa63-aa8b-4243-a338-c21b932ece94]   
+F, [2022-06-22T13:39:25.579262 #17173] FATAL -- : [2c5daa63-aa8b-4243-a338-c21b932ece94] ActionController::RoutingError (No route matches [GET] "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css"):
+F, [2022-06-22T13:39:25.579335 #17173] FATAL -- : [2c5daa63-aa8b-4243-a338-c21b932ece94]   
+F, [2022-06-22T13:39:25.579443 #17173] FATAL -- : [2c5daa63-aa8b-4243-a338-c21b932ece94] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[2c5daa63-aa8b-4243-a338-c21b932ece94] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:25.580962 #17173]  INFO -- : [a6f94754-954a-4832-89fe-25187e956c1b] Started GET "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css" for 127.0.0.1 at 2022-06-22 13:39:25 -0500
+F, [2022-06-22T13:39:25.581954 #17173] FATAL -- : [a6f94754-954a-4832-89fe-25187e956c1b]   
+F, [2022-06-22T13:39:25.582461 #17173] FATAL -- : [a6f94754-954a-4832-89fe-25187e956c1b] ActionController::RoutingError (No route matches [GET] "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css"):
+F, [2022-06-22T13:39:25.582637 #17173] FATAL -- : [a6f94754-954a-4832-89fe-25187e956c1b]   
+F, [2022-06-22T13:39:25.582856 #17173] FATAL -- : [a6f94754-954a-4832-89fe-25187e956c1b] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[a6f94754-954a-4832-89fe-25187e956c1b] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[a6f94754-954a-4832-89fe-25187e956c1b] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[a6f94754-954a-4832-89fe-25187e956c1b] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[a6f94754-954a-4832-89fe-25187e956c1b] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[a6f94754-954a-4832-89fe-25187e956c1b] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[a6f94754-954a-4832-89fe-25187e956c1b] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[a6f94754-954a-4832-89fe-25187e956c1b] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[a6f94754-954a-4832-89fe-25187e956c1b] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[a6f94754-954a-4832-89fe-25187e956c1b] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:25.585137 #17173]  INFO -- : [5130e8c0-2762-4faf-a896-721983d78d32] Started GET "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js" for 127.0.0.1 at 2022-06-22 13:39:25 -0500
+F, [2022-06-22T13:39:25.586679 #17173] FATAL -- : [5130e8c0-2762-4faf-a896-721983d78d32]   
+F, [2022-06-22T13:39:25.586815 #17173] FATAL -- : [5130e8c0-2762-4faf-a896-721983d78d32] ActionController::RoutingError (No route matches [GET] "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js"):
+F, [2022-06-22T13:39:25.586921 #17173] FATAL -- : [5130e8c0-2762-4faf-a896-721983d78d32]   
+F, [2022-06-22T13:39:25.587034 #17173] FATAL -- : [5130e8c0-2762-4faf-a896-721983d78d32] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[5130e8c0-2762-4faf-a896-721983d78d32] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[5130e8c0-2762-4faf-a896-721983d78d32] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[5130e8c0-2762-4faf-a896-721983d78d32] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[5130e8c0-2762-4faf-a896-721983d78d32] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[5130e8c0-2762-4faf-a896-721983d78d32] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[5130e8c0-2762-4faf-a896-721983d78d32] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[5130e8c0-2762-4faf-a896-721983d78d32] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[5130e8c0-2762-4faf-a896-721983d78d32] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[5130e8c0-2762-4faf-a896-721983d78d32] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:39.053825 #17331]  INFO -- : [23be9a25-fe3d-4652-aef3-798f84fdc11c] Started GET "/" for 127.0.0.1 at 2022-06-22 13:39:39 -0500
+I, [2022-06-22T13:39:39.055917 #17331]  INFO -- : [23be9a25-fe3d-4652-aef3-798f84fdc11c] Processing by WelcomeController#index as HTML
+I, [2022-06-22T13:39:39.070051 #17331]  INFO -- : [23be9a25-fe3d-4652-aef3-798f84fdc11c]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-22T13:39:39.145630 #17331]  INFO -- : [23be9a25-fe3d-4652-aef3-798f84fdc11c]   Rendered welcome/_menu.html.erb (0.7ms)
+I, [2022-06-22T13:39:39.145805 #17331]  INFO -- : [23be9a25-fe3d-4652-aef3-798f84fdc11c]   Rendered welcome/index.html.erb within layouts/application (75.6ms)
+I, [2022-06-22T13:39:39.147846 #17331]  INFO -- : [23be9a25-fe3d-4652-aef3-798f84fdc11c] Completed 200 OK in 92ms (Views: 79.9ms)
+I, [2022-06-22T13:39:39.169549 #17331]  INFO -- : [5e9fc521-c963-4884-b14f-3b1e21c8d0ca] Started GET "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css" for 127.0.0.1 at 2022-06-22 13:39:39 -0500
+F, [2022-06-22T13:39:39.171067 #17331] FATAL -- : [5e9fc521-c963-4884-b14f-3b1e21c8d0ca]   
+F, [2022-06-22T13:39:39.171368 #17331] FATAL -- : [5e9fc521-c963-4884-b14f-3b1e21c8d0ca] ActionController::RoutingError (No route matches [GET] "/assets/application-18157c666aa5f54338350dab22122fa53c8af29b5f90ea4c5accdda9cc63283f.css"):
+F, [2022-06-22T13:39:39.172741 #17331] FATAL -- : [5e9fc521-c963-4884-b14f-3b1e21c8d0ca]   
+F, [2022-06-22T13:39:39.172987 #17331] FATAL -- : [5e9fc521-c963-4884-b14f-3b1e21c8d0ca] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[5e9fc521-c963-4884-b14f-3b1e21c8d0ca] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:39.172620 #17331]  INFO -- : [78fb52b1-1888-4626-ac15-0591291964d2] Started GET "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js" for 127.0.0.1 at 2022-06-22 13:39:39 -0500
+F, [2022-06-22T13:39:39.174677 #17331] FATAL -- : [78fb52b1-1888-4626-ac15-0591291964d2]   
+F, [2022-06-22T13:39:39.174799 #17331] FATAL -- : [78fb52b1-1888-4626-ac15-0591291964d2] ActionController::RoutingError (No route matches [GET] "/assets/application-ec0e67a63efc11c079e89f9bf8bc18d2e8d8c88e0ea5a42c8667dd38e9ce215e.js"):
+F, [2022-06-22T13:39:39.175030 #17331] FATAL -- : [78fb52b1-1888-4626-ac15-0591291964d2]   
+F, [2022-06-22T13:39:39.175120 #17331] FATAL -- : [78fb52b1-1888-4626-ac15-0591291964d2] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[78fb52b1-1888-4626-ac15-0591291964d2] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[78fb52b1-1888-4626-ac15-0591291964d2] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[78fb52b1-1888-4626-ac15-0591291964d2] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[78fb52b1-1888-4626-ac15-0591291964d2] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[78fb52b1-1888-4626-ac15-0591291964d2] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[78fb52b1-1888-4626-ac15-0591291964d2] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[78fb52b1-1888-4626-ac15-0591291964d2] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[78fb52b1-1888-4626-ac15-0591291964d2] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[78fb52b1-1888-4626-ac15-0591291964d2] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:39:39.173618 #17331]  INFO -- : [e9f8c098-ce6e-4d76-965f-bf3666ea41ae] Started GET "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css" for 127.0.0.1 at 2022-06-22 13:39:39 -0500
+F, [2022-06-22T13:39:39.176400 #17331] FATAL -- : [e9f8c098-ce6e-4d76-965f-bf3666ea41ae]   
+F, [2022-06-22T13:39:39.176568 #17331] FATAL -- : [e9f8c098-ce6e-4d76-965f-bf3666ea41ae] ActionController::RoutingError (No route matches [GET] "/assets/scaffolds-ecc6b4bf72908d681e47674d35ac172721fc5ee0a419ef3b2761e60872c99833.css"):
+F, [2022-06-22T13:39:39.176923 #17331] FATAL -- : [e9f8c098-ce6e-4d76-965f-bf3666ea41ae]   
+F, [2022-06-22T13:39:39.177310 #17331] FATAL -- : [e9f8c098-ce6e-4d76-965f-bf3666ea41ae] actionpack (5.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] actionpack (5.2.8) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] railties (5.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] railties (5.2.8) lib/rails/rack/logger.rb:26:in `block in call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] activesupport (5.2.8) lib/active_support/tagged_logging.rb:28:in `tagged'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] activesupport (5.2.8) lib/active_support/tagged_logging.rb:71:in `tagged'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] railties (5.2.8) lib/rails/rack/logger.rb:26:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] actionpack (5.2.8) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] actionpack (5.2.8) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] activesupport (5.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] actionpack (5.2.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] railties (5.2.8) lib/rails/engine.rb:524:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+[e9f8c098-ce6e-4d76-965f-bf3666ea41ae] puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-06-22T13:41:10.101434 #17544]  INFO -- : [e123e870-bc4f-470a-a305-86492e760536] Started GET "/" for 127.0.0.1 at 2022-06-22 13:41:10 -0500
+I, [2022-06-22T13:41:10.104177 #17544]  INFO -- : [e123e870-bc4f-470a-a305-86492e760536] Processing by WelcomeController#index as HTML
+I, [2022-06-22T13:41:10.117896 #17544]  INFO -- : [e123e870-bc4f-470a-a305-86492e760536]   Rendering welcome/index.html.erb within layouts/application
+I, [2022-06-22T13:41:10.214034 #17544]  INFO -- : [e123e870-bc4f-470a-a305-86492e760536]   Rendered welcome/_menu.html.erb (1.2ms)
+I, [2022-06-22T13:41:10.214281 #17544]  INFO -- : [e123e870-bc4f-470a-a305-86492e760536]   Rendered welcome/index.html.erb within layouts/application (96.2ms)
+I, [2022-06-22T13:41:10.217075 #17544]  INFO -- : [e123e870-bc4f-470a-a305-86492e760536] Completed 200 OK in 113ms (Views: 101.6ms)

@@ -1,0 +1,11 @@
+Started GET "/" for 127.0.0.1 at 2022-06-21 11:46:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/_menu.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (77.1ms)
+Completed 200 OK in 652ms (Views: 644.6ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2022-06-21 11:46:41 -0500
+Started GET "/assets/scaffolds-415e1498d8ae5785f3dcdd02e6bb4e0dbe727912e839fc3d133abe74e75176bb.css" for 127.0.0.1 at 2022-06-21 11:46:41 -0500
+Started GET "/assets/welcome-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2022-06-21 11:46:41 -0500
+Started GET "/assets/application-b5feffc7f1f9b8f3fc8a923b85c341876d0198e33f351e2e0b04fd402538c294.js" for 127.0.0.1 at 2022-06-21 11:46:41 -0500
+Started GET "/assets/welcome-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js" for 127.0.0.1 at 2022-06-21 11:46:41 -0500
